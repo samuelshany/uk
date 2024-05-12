@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "product_name": "test",
+            "quantity": 23,
+            "customer_name": "sdsadsad",
+            "total_amount": 1200,
+            "date": "21-12-2032",
+            "status": "Pending"
+        }
+    ],
+    "links": {},
+    "meta": {
+        "total": "5"
+    }
+}

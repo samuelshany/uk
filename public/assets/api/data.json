@@ -1,0 +1,117 @@
+{"data":[
+    {
+      "id":"33",
+      "product_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "delivery_quantity":"100",
+      "customer_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "total_delivery":"1000",
+      "total_balance":"200",
+      "editable":0,
+      "ready_to_confirm":0
+
+
+
+
+
+
+
+    },
+    {
+        "id":"3",
+        "product_name":"Product Name",
+        "delivery_date":"12-12-2023",
+        "quantity":"120",
+        "delivery_quantity":"100",
+        "customer_name":"Name",
+        "note":"note",
+        "total_amount":"1200",
+        "total_delivery":"1000",
+        "total_balance":"200",
+        "editable":0,
+        "ready_to_confirm":0
+
+    },
+    {
+      "id":"3",
+      "product_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "delivery_quantity":"100",
+      "customer_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "total_delivery":"1000",
+      "total_balance":"200",
+      "editable":1,
+      "ready_to_confirm":1
+
+    },
+    {
+      "id":"3",
+      "product_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "delivery_quantity":"100",
+      "customer_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "total_delivery":"1000",
+      "total_balance":"200",
+      "editable":0,
+      "ready_to_confirm":0
+
+    },
+    {
+      "id":"3",
+      "product_name":"Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "delivery_quantity":"100",
+      "customer_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "total_delivery":"1000",
+      "total_balance":"200",
+      "editable":1,
+      "ready_to_confirm":1
+
+    }
+],
+"links": {
+    "first": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+    "last": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+    "prev": null,
+    "next": null
+},
+"meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 1,
+    "links": [
+        {
+            "url": null,
+            "label": "&laquo; Previous",
+            "active": false
+        },
+        {
+            "url": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+            "label": "1",
+            "active": true
+        },
+        {
+            "url": null,
+            "label": "Next &raquo;",
+            "active": false
+        }
+    ],
+    "path": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset",
+    "per_page": 15,
+    "to": 9,
+    "total": 9
+
+}
+}

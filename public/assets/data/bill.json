@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "purchase_invoice_id":1,
+            "payment_date":"10/1/2022",
+            "total":30000,
+            "remain_total":5000,
+            "paid_total":25000,
+            "status":"partial"
+        }
+    ],
+    "links": {},
+    "meta": {
+        "total": "5"
+    }
+}

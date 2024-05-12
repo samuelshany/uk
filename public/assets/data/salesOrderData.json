@@ -1,0 +1,74 @@
+{
+  "data":[
+  {
+      "id":"1",
+      "customer_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "supplier_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "status":"shipped"
+
+  },
+  {
+      "id":"2",
+      "customer_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "supplier_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "status":"approved"
+
+
+  },
+  {
+      "id":"3",
+      "customer_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "supplier_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "status":"delivered"
+
+
+  },
+  {
+      "id":"4",
+      "customer_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "supplier_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "status":"packed"
+
+
+  },
+  {
+      "id":"5",
+      "customer_name":"Product Name",
+      "delivery_date":"12-12-2023",
+      "quantity":"120",
+      "supplier_name":"Name",
+      "note":"note",
+      "total_amount":"1200",
+      "status":"shipped"
+
+
+  }
+],
+
+
+"links":{
+
+},
+
+
+"meta":{
+  "total":"5"
+}
+
+}

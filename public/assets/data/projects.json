@@ -1,0 +1,48 @@
+{"data":[
+  {
+      "id":"1423",
+      "project_name":"Product Name",
+      "project_phases":"Name",
+      "construction":"name",
+      "work_types":"name",
+      "units":"name",
+      "clauses":"name",
+      "category":"name",
+
+      "price":"1000"
+  }
+],
+"links": {
+  "first": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+  "last": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+  "prev": null,
+  "next": null
+},
+"meta": {
+  "current_page": 1,
+  "from": 1,
+  "last_page": 1,
+  "links": [
+      {
+          "url": null,
+          "label": "&laquo; Previous",
+          "active": false
+      },
+      {
+          "url": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset?page=1",
+          "label": "1",
+          "active": true
+      },
+      {
+          "url": null,
+          "label": "Next &raquo;",
+          "active": false
+      }
+  ],
+  "path": "https:\/\/mahe.thekeyeg.com\/v1\/api\/fixed-asset",
+  "per_page": 15,
+  "to": 9,
+  "total": 9
+
+}
+}

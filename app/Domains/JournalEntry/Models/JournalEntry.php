@@ -1,0 +1,59 @@
+<?php
+
+namespace App\Domains\JournalEntry\Models;
+
+use App\Domains\FinancialPeriod\Models\FinancialPeriod;
+use App\Domains\User\Models\User;
+use App\Traits\HasFinancialPeriod;
+use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+
+class JournalEntry extends Model implements HasMedia
+{
+    use HasFactory, SoftDeletes, HasFinancialPeriod, InteractsWithMedia;
+    protected $fillable = [
+        'title',
+        'entry_no',
+        'date',
+        'editable',
+        'description',
+        'creator_id',
+    ];
+    public function creator(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'creator_id');
+    }
+    public function details(): HasMany
+    {
+        return $this->hasMany(JournalEntryDetail::class, 'journal_entry_id');
+    }
+    public function getTotalDebitAttribute(): float
+    {
+        return $this->details->sum('debit');
+    }
+    public function getTotalCreditAttribute(): float
+    {
+        return $this->details->sum('credit');
+    }
+    public function getDifferenceAttribute(): float
+    {
+        return $this->total_debit - $this->total_credit;
+    }
+    public function setDateAttribute($value)
+    {
+        $this->attributes['date'] = Carbon::parse($value)->format('Y-m-d');
+    }
+    
+    public function financiables(): MorphToMany
+    {   
+        return $this->morphToMany(FinancialPeriod::class, 'financiables','financiables');
+    }
+}

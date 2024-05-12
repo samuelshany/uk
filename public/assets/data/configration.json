@@ -1,0 +1,21 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "status_name": "test",
+            "final_state":true,
+            "color": "#ff0000"
+        },
+        {
+            "id": 2,
+            "status_name": "test",
+            "color": "#99cc00",
+            "final_state":false
+
+        }
+    ],
+    "links": {},
+    "meta": {
+        "total": "5"
+    }
+}

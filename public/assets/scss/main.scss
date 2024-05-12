@@ -1,0 +1,110 @@
+// body {
+//   --lightGray: #edebeb8a;
+//   font-size: 1.6rem;
+// }
+
+
+
+// table {
+//   border-collapse: separate;
+//   border-spacing: 0rem 1rem;
+
+//   thead {
+//     tr {
+//       th {
+//         background-color: #ffffff;
+//         color: #979797;
+//         font-size: 1.5rem;
+//         font-weight: normal !important;
+//         width: auto;
+//         overflow: hidden;
+//       }
+//     }
+//   }
+
+//   tbody {
+//     font-family: "Roboto", sans-serif;
+//     font-size: 1.4rem;
+//     color: #2e2e2e;
+
+//     tr {
+//       background-color: var(--lightGray);
+//       line-height: 3;
+
+//       td {
+//         padding: 1.2rem;
+//         min-width: 100px;
+//         overflow: hidden;
+//       }
+//     }
+//   }
+// }
+
+// input[type="text"] {
+//   background: var(--white);
+//   height: 50px;
+//   width: 100%;
+//   border: none;
+//   border-radius: 5px;
+//   color: var(--light-text, #2e2e2e);
+//   font-size: 13.565px;
+//   font-family: Roboto;
+//   line-height: 19.378px;
+//   padding: 10px;
+
+//   border: 1px solid var(--mainColor);
+
+//   &:focus {
+//     outline: none;
+//   }
+// }
+
+// input[type="number"] {
+//   background: var(--white);
+//   height: 50px;
+//   width: 100%;
+//   border: none;
+//   border-radius: 5px;
+//   color: var(--light-text, #2e2e2e);
+//   font-size: 13.565px;
+//   font-family: Roboto;
+//   line-height: 19.378px;
+//   padding: 10px;
+//   border: 1px solid var(--mainColor);
+
+//   &:focus {
+//     outline: none;
+//   }
+
+// }
+
+// ::placeholder {
+//   color: var(--light-text, #2e2e2e);
+//   font-size: 13.565px;
+//   font-family: Roboto;
+//   line-height: 19.378px;
+//   padding: 5px;
+// }
+
+// .active {
+//   background-color: var(--mainColor) !important;
+// }
+
+// // p-dynamicdialog {
+// // }
+
+// .p-component-overlay {
+//   background: rgba(52, 64, 84, 0.70);
+//   /* Background blur / md */
+//   backdrop-filter: blur(8px);
+// }
+
+// .p-dialog {
+//   width: 50%;
+//   padding: 24px 24px 0px 24px;
+//   z-index: 2100;
+//   background: var(--base-white, #fff);
+//   box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.04),
+//     0px 20px 24px -4px rgba(16, 24, 40, 0.1);
+//   border-radius: 12px;
+// }
